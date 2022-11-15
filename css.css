@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+    background-color: rgb(157,144,137);
+}
+.header > img {
+    height: 80px;
+}
+.header > h1 {
+    font-size: 30px;
+    color: #43de0a;
+}
+.slider {
+    display: block;
+}
+.slider > img {
+    width: 100%;
+}
+.slider > .slider-item {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.slider-item > .nav {
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+.slider-item > .nav:hover {
+    background-color: #39a6b9;
+}
+.slider-item > .nav > img {
+    height: 40px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+.slider-item > .nav > p {
+    font-size: 16px;
+    color: green;
+    margin-left: 6px;
+    line-height: 50px;
+}
+.slider-nav {
+    margin-top: 4px;
+}
+.marle {
+    display: block;
+    width: 100%;
+
+}
+.marle > span {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 30px;
+    color: red;
+}
+.slider-nav > .marle > img {
+    width: 100%;
+    cursor: pointer;
+}
+.marle-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+    display: none;
+}
+.marle-item > img {
+    width: 30%;
+    margin: 10px;
+    border-bottom: 2px solid rgb(10, 233, 28);
+}
+.marle-item1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.marle-item1 > img {
+    width: 30%;
+    margin: 10px;
+    border-bottom: 2px solid rgb(10, 233, 28);
+}
+.fooder {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(214, 205, 193);
+    bottom: 0;
+    display: block;
+    text-align: center;
+    padding-top: 2px;
+}
+.fooder-nav {
+    display: flex;
+    justify-content: center;
+}
+.fooder-nav > i {
+    color: green;
+}
+.fooder-nav > p {
+    color: rgb(245, 122, 21);
+}
+.fooder > .fooder-item {
+    display: inline-flex;
+    margin: 0 6px;
+}
+.fooder > .fooder-item > i {
+    font-size: 20px;
+    color: red;
+    margin-right: 4px;
+}
+.fooder > .fooder-item > p {
+    font-weight: 800;
+    color: red;
+}
+.nav.active p {
+    color: rgb(245, 122, 21);
+}
+.nav.active {
+    border-color: chocolate;
+}
+.slider-nav {
+    display: none;
+}
+.slider-nav.active {
+    display: block;
+}
+#chao {
+    display: block;
+}
+.fooder-nav > p {
+    color: green;
+}
